@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#167C64">
+  <title>Política de Privacidade | DatePin</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --green: #167C64;
+      --bg: #f7faf9;
+      --card: #ffffff;
+      --text: #17201d;
+      --muted: #5a6863;
+      --border: #dbe5e1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101513;
+        --card: #171e1b;
+        --text: #edf5f2;
+        --muted: #afbbb7;
+        --border: #2b3833;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 40px auto 72px;
+    }
+    header, section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--green);
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+    .pin {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--green);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-size: 17px;
+    }
+    h1 { margin: 16px 0 6px; line-height: 1.15; }
+    h2 { margin-top: 0; font-size: 1.22rem; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    a { color: var(--green); }
+    nav {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-weight: 650;
+    }
+    ul { padding-left: 22px; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand"><span class="pin">●</span>DatePin</div>
+    <h1>Política de Privacidade</h1>
+    <p class="muted">Última atualização: 27 de setembro de 2026</p>
+    <nav>
+      <a href="#pt">Português</a>
+      <a href="#en">English</a>
+    </nav>
+  </header>
+
+  <section id="pt">
+    <h2>1. Resumo</h2>
+    <p>O DatePin foi projetado para funcionar localmente no seu dispositivo. O desenvolvedor do DatePin não opera um servidor próprio para coletar, armazenar ou analisar seus dados pessoais.</p>
+
+    <h2>2. Dados armazenados no dispositivo</h2>
+    <p>Para oferecer suas funções, o DatePin pode armazenar localmente no aparelho informações que você inserir ou configurar, incluindo:</p>
+    <ul>
+      <li>nomes e datas de eventos;</li>
+      <li>tipo de contador e configuração de recorrência;</li>
+      <li>item atualmente fixado;</li>
+      <li>preferências visuais e de funcionamento;</li>
+      <li>estado local do acesso Premium.</li>
+    </ul>
+    <p>Essas informações são usadas apenas para o funcionamento do aplicativo e não são enviadas a um servidor do desenvolvedor.</p>
+
+    <h2>3. Notificações</h2>
+    <p>O DatePin usa notificações do Android para manter o dia atual ou um contador visível na barra de status. Em versões do Android que exigem permissão para notificações, o aplicativo solicitará essa permissão ao usuário.</p>
+
+    <h2>4. Compras no Google Play</h2>
+    <p>O DatePin pode oferecer uma compra única para desbloquear recursos Premium. A compra é processada pelo Google Play Billing. Informações de pagamento, como dados de cartão, são tratadas pelo Google e não são recebidas nem armazenadas pelo DatePin.</p>
+    <p>O aplicativo pode consultar o Google Play para verificar se a compra Premium pertence à conta utilizada no aparelho e manter localmente o estado necessário para liberar os recursos adquiridos.</p>
+
+    <h2>5. Publicidade, analytics e rastreamento</h2>
+    <p>O DatePin não exibe anúncios e, atualmente, não utiliza SDKs próprios de publicidade, analytics comportamental ou rastreamento do usuário.</p>
+
+    <h2>6. Conta de usuário</h2>
+    <p>O DatePin não exige a criação de conta no aplicativo.</p>
+
+    <h2>7. Compartilhamento ou venda de dados</h2>
+    <p>O desenvolvedor do DatePin não vende dados pessoais nem compartilha os dados dos eventos criados no aplicativo com terceiros. Serviços fornecidos pelo Google Play, inclusive o processamento de compras, estão sujeitos às políticas e termos do próprio Google.</p>
+
+    <h2>8. Exclusão de dados</h2>
+    <p>Como os dados do DatePin ficam localmente no dispositivo, o usuário pode removê-los excluindo eventos no aplicativo, limpando os dados do aplicativo nas configurações do Android ou desinstalando o DatePin.</p>
+
+    <h2>9. Crianças</h2>
+    <p>O DatePin é um utilitário geral e não é direcionado especificamente a crianças.</p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>Esta política poderá ser atualizada caso o funcionamento do aplicativo ou os serviços utilizados mudem. A data da última atualização será indicada no topo desta página.</p>
+
+    <h2>11. Contato</h2>
+    <p>Questões sobre privacidade podem ser enviadas por meio do repositório oficial do DatePin no GitHub: <a href="https://github.com/danielmvr/datepin-site">github.com/danielmvr/datepin-site</a>.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Last updated: September 27, 2026</p>
+
+    <h2>1. Summary</h2>
+    <p>DatePin is designed to work locally on your device. The DatePin developer does not operate a proprietary server to collect, store, or analyze your personal data.</p>
+
+    <h2>2. Data stored on the device</h2>
+    <p>To provide its features, DatePin may store information you enter or configure locally on the device, including:</p>
+    <ul>
+      <li>event names and dates;</li>
+      <li>counter type and recurrence settings;</li>
+      <li>the currently pinned item;</li>
+      <li>visual and behavior preferences;</li>
+      <li>local Premium entitlement state.</li>
+    </ul>
+    <p>This information is used only for the app's functionality and is not sent to a server operated by the developer.</p>
+
+    <h2>3. Notifications</h2>
+    <p>DatePin uses Android notifications to keep the current day or a counter visible in the status bar. On Android versions that require notification permission, the app will request that permission from the user.</p>
+
+    <h2>4. Google Play purchases</h2>
+    <p>DatePin may offer a one-time purchase to unlock Premium features. Purchases are processed through Google Play Billing. Payment information, such as card details, is handled by Google and is not received or stored by DatePin.</p>
+    <p>The app may query Google Play to verify whether the Premium purchase belongs to the account used on the device and locally retain the state required to unlock purchased features.</p>
+
+    <h2>5. Advertising, analytics and tracking</h2>
+    <p>DatePin does not display ads and currently does not use proprietary advertising, behavioral analytics, or user-tracking SDKs.</p>
+
+    <h2>6. User account</h2>
+    <p>DatePin does not require users to create an account within the app.</p>
+
+    <h2>7. Sharing or selling data</h2>
+    <p>The DatePin developer does not sell personal data or share event data created in the app with third parties. Services provided by Google Play, including purchase processing, are subject to Google's own policies and terms.</p>
+
+    <h2>8. Data deletion</h2>
+    <p>Because DatePin data is stored locally on the device, users can remove it by deleting events in the app, clearing the app's data in Android settings, or uninstalling DatePin.</p>
+
+    <h2>9. Children</h2>
+    <p>DatePin is a general-purpose utility and is not specifically directed at children.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>This policy may be updated if the app's operation or the services it uses change. The latest update date will be shown at the top of this page.</p>
+
+    <h2>11. Contact</h2>
+    <p>Privacy questions can be submitted through the official DatePin GitHub repository: <a href="https://github.com/danielmvr/datepin-site">github.com/danielmvr/datepin-site</a>.</p>
+  </section>
+
+  <footer>DatePin • Pin the time that matters.</footer>
+</main>
+</body>
+</html>
