@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0F8B8D">
+  <title>Política de Privacidade | BatteryPin</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #0F8B8D;
+      --bg: #f5fbfb;
+      --card: #ffffff;
+      --text: #172020;
+      --muted: #5a6868;
+      --border: #d7e7e7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1515;
+        --card: #151e1e;
+        --text: #edf6f6;
+        --muted: #aebcbc;
+        --border: #293939;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 40px auto 72px;
+    }
+    header, section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+    .badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 11px;
+      background: var(--accent);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+    }
+    h1 { margin: 16px 0 6px; line-height: 1.15; }
+    h2 { margin-top: 0; font-size: 1.22rem; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); }
+    nav {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-weight: 650;
+    }
+    ul { padding-left: 22px; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand"><span class="badge">%</span>BatteryPin</div>
+    <h1>Política de Privacidade</h1>
+    <p class="muted">Última atualização: 12 de outubro de 2026</p>
+    <nav>
+      <a href="#pt">Português</a>
+      <a href="#en">English</a>
+    </nav>
+  </header>
+
+  <section id="pt">
+    <h2>1. Resumo</h2>
+    <p>O BatteryPin foi projetado para funcionar localmente no dispositivo. O desenvolvedor não opera servidor próprio para coletar, armazenar ou analisar dados pessoais do usuário.</p>
+
+    <h2>2. Informações de bateria usadas pelo aplicativo</h2>
+    <p>Para exibir o estado da bateria e fornecer alertas, o BatteryPin lê informações disponibilizadas pelo próprio Android, que podem incluir:</p>
+    <ul>
+      <li>porcentagem atual da bateria;</li>
+      <li>estado de carregamento;</li>
+      <li>temperatura da bateria;</li>
+      <li>tensão;</li>
+      <li>estado de saúde reportado pelo Android;</li>
+      <li>fonte de energia, como bateria, USB, tomada ou carregamento sem fio.</li>
+    </ul>
+    <p>Essas informações são utilizadas no próprio aparelho para atualizar a interface, a notificação persistente e os alertas configurados pelo usuário. Elas não são enviadas a um servidor do desenvolvedor.</p>
+
+    <h2>3. Dados e preferências armazenados localmente</h2>
+    <p>O BatteryPin pode armazenar localmente:</p>
+    <ul>
+      <li>se o indicador está ativado;</li>
+      <li>preferências e limites dos alertas;</li>
+      <li>o último estado conhecido da bateria;</li>
+      <li>estado local do acesso Premium;</li>
+      <li>informações técnicas de diagnóstico, como horários de execução do serviço e motivos de encerramento de processo reportados pelo Android.</li>
+    </ul>
+    <p>Os dados de diagnóstico existem para ajudar a identificar problemas de execução em segundo plano e permanecem no dispositivo. O usuário pode copiá-los manualmente caso deseje compartilhá-los para suporte.</p>
+
+    <h2>4. Serviço em segundo plano e notificações</h2>
+    <p>O BatteryPin utiliza um serviço em primeiro plano do Android para manter a porcentagem atualizada na barra de status enquanto o recurso está ativado. Também utiliza notificações para o indicador persistente e para os alertas de bateria configurados. Em versões do Android que exigem permissão para notificações, o aplicativo solicitará essa permissão.</p>
+
+    <h2>5. Compras no Google Play</h2>
+    <p>O BatteryPin pode oferecer uma compra única para desbloquear recursos Premium. A compra é processada pelo Google Play Billing. Informações de pagamento, como dados de cartão, são tratadas pelo Google e não são recebidas nem armazenadas pelo BatteryPin.</p>
+    <p>O aplicativo pode consultar o Google Play para verificar o direito de acesso Premium associado à conta usada no dispositivo e manter localmente o estado necessário para liberar os recursos adquiridos.</p>
+
+    <h2>6. Publicidade, analytics e rastreamento</h2>
+    <p>O BatteryPin não exibe anúncios e não utiliza SDKs próprios de publicidade, analytics comportamental ou rastreamento do usuário.</p>
+
+    <h2>7. Conta de usuário</h2>
+    <p>O BatteryPin não exige criação de conta dentro do aplicativo.</p>
+
+    <h2>8. Compartilhamento ou venda de dados</h2>
+    <p>O desenvolvedor do BatteryPin não vende dados pessoais nem envia os dados de bateria e preferências do aplicativo a terceiros. Serviços fornecidos pelo Google Play, incluindo processamento e verificação de compras, estão sujeitos às políticas e termos do Google.</p>
+
+    <h2>9. Exclusão de dados</h2>
+    <p>Como os dados do BatteryPin ficam localmente no dispositivo, o usuário pode removê-los limpando os dados do aplicativo nas configurações do Android ou desinstalando o BatteryPin. Registros de compra mantidos pelo Google Play são administrados pelo Google de acordo com suas próprias políticas.</p>
+
+    <h2>10. Crianças</h2>
+    <p>O BatteryPin é um utilitário geral e não é direcionado especificamente a crianças.</p>
+
+    <h2>11. Alterações nesta política</h2>
+    <p>Esta política poderá ser atualizada caso as funções do aplicativo ou os serviços utilizados mudem. A data da última atualização será indicada no topo desta página.</p>
+
+    <h2>12. Contato</h2>
+    <p>Questões sobre privacidade podem ser enviadas por meio do repositório público do projeto de páginas do desenvolvedor no GitHub: <a href="https://github.com/danielmvr/datepin-site">github.com/danielmvr/datepin-site</a>.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Last updated: October 12, 2026</p>
+
+    <h2>1. Summary</h2>
+    <p>BatteryPin is designed to work locally on the device. The developer does not operate a proprietary server to collect, store, or analyze the user's personal data.</p>
+
+    <h2>2. Battery information used by the app</h2>
+    <p>To display battery status and provide alerts, BatteryPin reads information made available by Android, which may include:</p>
+    <ul>
+      <li>current battery percentage;</li>
+      <li>charging state;</li>
+      <li>battery temperature;</li>
+      <li>voltage;</li>
+      <li>battery health status reported by Android;</li>
+      <li>power source, such as battery, USB, AC charger, or wireless charging.</li>
+    </ul>
+    <p>This information is used on the device to update the interface, persistent notification, and user-configured alerts. It is not sent to a server operated by the developer.</p>
+
+    <h2>3. Data and preferences stored locally</h2>
+    <p>BatteryPin may store locally:</p>
+    <ul>
+      <li>whether the status indicator is enabled;</li>
+      <li>alert preferences and thresholds;</li>
+      <li>the last known battery state;</li>
+      <li>local Premium entitlement state;</li>
+      <li>technical diagnostics such as service execution timestamps and process-exit reasons reported by Android.</li>
+    </ul>
+    <p>Diagnostic data exists to help identify background-execution problems and remains on the device. Users can manually copy it if they choose to share it for support.</p>
+
+    <h2>4. Background service and notifications</h2>
+    <p>BatteryPin uses an Android foreground service to keep the battery percentage updated in the status bar while the feature is enabled. It also uses notifications for the persistent indicator and configured battery alerts. On Android versions that require notification permission, the app will request that permission.</p>
+
+    <h2>5. Google Play purchases</h2>
+    <p>BatteryPin may offer a one-time purchase to unlock Premium features. Purchases are processed through Google Play Billing. Payment information, such as card details, is handled by Google and is not received or stored by BatteryPin.</p>
+    <p>The app may query Google Play to verify Premium entitlement associated with the account used on the device and locally retain the state required to unlock purchased features.</p>
+
+    <h2>6. Advertising, analytics and tracking</h2>
+    <p>BatteryPin does not display ads and does not use proprietary advertising, behavioral analytics, or user-tracking SDKs.</p>
+
+    <h2>7. User account</h2>
+    <p>BatteryPin does not require users to create an account within the app.</p>
+
+    <h2>8. Sharing or selling data</h2>
+    <p>The BatteryPin developer does not sell personal data or send battery data and app preferences to third parties. Services provided by Google Play, including purchase processing and verification, are subject to Google's own policies and terms.</p>
+
+    <h2>9. Data deletion</h2>
+    <p>Because BatteryPin data is stored locally on the device, users can remove it by clearing the app's data in Android settings or uninstalling BatteryPin. Purchase records maintained by Google Play are managed by Google according to its own policies.</p>
+
+    <h2>10. Children</h2>
+    <p>BatteryPin is a general-purpose utility and is not specifically directed at children.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>This policy may be updated if the app's functionality or the services it uses change. The latest update date will be shown at the top of this page.</p>
+
+    <h2>12. Contact</h2>
+    <p>Privacy questions can be submitted through the developer's public pages repository on GitHub: <a href="https://github.com/danielmvr/datepin-site">github.com/danielmvr/datepin-site</a>.</p>
+  </section>
+
+  <footer>BatteryPin • Your battery, always in sight.</footer>
+</main>
+</body>
+</html>
